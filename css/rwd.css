@@ -1,9 +1,23 @@
 @media screen and (max-width: 768px) {
     .menu_bar {
-        margin-top: 30px;
+        margin: 30px 0 0 30px;
+    }
+    .slidebox {
+        padding: 0 30px;
+    }
+    .menu_bar > div > a > img {
+        width: 70%;
     }
     .first_page_title {
         font-size: 50px;
+        margin-top: 20px;
+    }
+    #section0 {
+        background: url('../img/1_small.png');
+    }
+
+    .first_slide > .horizontal_word > p:nth-child(1) {
+        padding-top: 150%;
     }
     #section0,
     #section1,
@@ -11,7 +25,7 @@
     #section3,
     #section4 {
         background-size: cover;
-        background-position: center center;
+        background-position: center;
         background-repeat: no-repeat;
     }
     .svg_1,
@@ -20,6 +34,7 @@
     }
     .ex_wordbox {
         padding-left: 10px;
+        padding-top: 15px;
     }
     .vertical_word {
         display: none;
@@ -28,16 +43,50 @@
     .third_slide,
     .fourth_slide,
     .fifth_slide {
-        padding-top: 30%;
+        padding-top: 20%;
+    }
+    .about_me_word {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+    .third_page_title {
+        font-size: 24px;
+        margin: 20px 0 15px 0;
+    }
+    .fourth_page_title {
+        font-size: 24px;
+        margin: 0 0 20px 0;
+    }
+    .work {
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+    .work_title {
+        height: 30px;
+        font-size: 16px;
+        padding: 5px 0;
+    }
+    .ex_title {
+        font-size: 16px;
+    }
+    .skillbar {
+        margin-bottom: 20px;
+    }
+    .message {
+        height: 100px;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .menu_bar {
-        margin-top: 60px;
+        margin: 60px 50px 0 50px;
+    }
+    .slidebox {
+        padding: 0 60px;
     }
     .first_page_title {
         font-size: 80px;
+        margin-top: 54px;
     }
     #section0,
     #section1,
@@ -53,18 +102,117 @@
     }
     .ex_wordbox {
         padding-left: 30px;
+        padding-top: 40px;
     }
     .vertical_word {
         display: inline-block;
     }
+    .about_me_word {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+    .third_page_title {
+        font-size: 40px;
+        margin: 35px 0;
+    }
+    .fourth_page_title {
+        font-size: 40px;
+        margin-bottom: 35px;
+    }
+    .work {
+        width: 200px;
+        height: 170px;
+        margin: 0 30px 20px 0;
+    }
+    .work_title {
+        height: 50px;
+        font-size: 20px;
+        padding: 15px 0;
+    }
+    .ex_title {
+        font-size: 20px;
+    }
+    .skillbar {
+        margin-bottom: 35px;
+    }
+    .message {
+        height: 250px;
+    }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) and (max-width: 1200px) {
     .menu_bar {
-        margin-top: 60px;
+        margin: 60px 50px 0 50px;
+    }
+    .slidebox {
+        padding: 0 60px;
     }
     .first_page_title {
         font-size: 80px;
+        margin-top: 54px;
+    }
+    #section0,
+    #section1,
+    #section2,
+    #section3,
+    #section4 {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .svg_1,
+    .svg_2 {
+        display: none;
+    }
+    .ex_wordbox {
+        padding-left: 30px;
+        padding-top: 40px;
+    }
+    .vertical_word {
+        display: none;
+    }
+    .about_me_word {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+    .third_page_title {
+        font-size: 40px;
+        margin: 35px 0;
+    }
+    .fourth_page_title {
+        font-size: 40px;
+        margin-bottom: 35px;
+    }
+    .work {
+        width: 200px;
+        height: 170px;
+        margin: 0 30px 20px 0;
+    }
+    .work_title {
+        height: 50px;
+        font-size: 20px;
+        padding: 15px 0;
+    }
+    .ex_title {
+        font-size: 20px;
+    }
+    .skillbar {
+        margin-bottom: 35px;
+    }
+    .message {
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .menu_bar {
+        margin: 60px 50px 0 50px;
+    }
+    .slidebox {
+        padding: 0 60px;
+    }
+    .first_page_title {
+        font-size: 100px;
+        margin-top: 64px;
     }
     #section0,
     #section1,
@@ -79,9 +227,41 @@
         display: inline-block;
     }
     .ex_wordbox {
-        padding-left: 0;
+        padding-left: 30px;
+        padding-top: 40px;
     }
     .vertical_word {
         display: inline-block;
+    }
+    .about_me_word {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+    .third_page_title {
+        font-size: 40px;
+        margin: 35px 0;
+    }
+    .fourth_page_title {
+        font-size: 40px;
+        margin-bottom: 35px;
+    }
+    .work {
+        width: 200px;
+        height: 170px;
+        margin: 0 30px 20px 0;
+    }
+    .work_title {
+        height: 50px;
+        font-size: 20px;
+        padding: 15px 0;
+    }
+    .ex_title {
+        font-size: 20px;
+    }
+    .skillbar {
+        margin-bottom: 35px;
+    }
+    .message {
+        height: 250px;
     }
 }

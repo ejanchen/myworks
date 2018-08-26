@@ -76,16 +76,6 @@ body {
     float: left;
 }
 
-.slidebox {
-    padding: 0 60px;
-}
-
-.first_slide {
-    padding-top: 20%;
-}
-
-
-
 form {
     color: #005DBD;
 }
@@ -100,7 +90,7 @@ span {
 .menu_bar {
     position: fixed;
     z-index: 1;
-    padding-left: 50px;
+    width: 100%;
 }
 
 .contact_bar {
@@ -124,11 +114,11 @@ span {
 .black_mask {
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 #section0 {
-    background: url('../img/1.png');
+    background: url('../img/1.jpg');
 }
 
 .horizontal_word {
@@ -137,10 +127,8 @@ span {
 
 .first_page_title {
     font-family: 'Fugaz One', cursive;
-
     line-height: 100%;
-    margin-top: 54px;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
     /*word-wrap: break-word;*/
     text-transform: uppercase;
 }
@@ -164,8 +152,7 @@ span {
 }
 
 .svg_1,
-.svg_2,
-.svg_3 {
+.svg_2 {
     width: 80px;
     fill: #4d4c4b;
 }
@@ -189,9 +176,6 @@ span {
 }
 
 .work_title {
-    height: 50px;
-    font-size: 20px;
-    padding: 15px 0;
     text-align: center;
     background-color: #d0edff;
 }
@@ -201,17 +185,12 @@ span {
     stroke-width: 3;
 }
 
-.ex_wordbox {
-    padding-top: 40px;
-}
-
 .ex_wordbox > div:nth-child(1),
 .ex_wordbox > div:nth-child(2) {
     padding-bottom: 20px;
 }
 
 .ex_title {
-    font-size: 20px;
     font-weight: 600;
     color: #fdfdfd;
 }
@@ -249,16 +228,10 @@ span {
 
 .third_page_title {
     font-family: '微軟正黑體';
-    font-size: 40px;
     line-height: 100%;
-    margin: 35px 0;
 }
 
 /*--- skill bar ---*/
-
-.skillbar {
-    margin-bottom: 35px;
-}
 
 .skillbar-bar {
     height: 5px;
@@ -275,8 +248,6 @@ span {
 }
 
 .about_me_word {
-    font-size: 14px;
-    line-height: 1.8;
     color: #fff;
     padding-bottom: 30px;
 }
@@ -290,17 +261,13 @@ span {
 
 .fourth_page_title {
     font-family: 'Fugaz One', cursive;
-    font-size: 40px;
-    margin-bottom: 35px;
     text-transform: uppercase;
     line-height: 100%;
 }
 
 .work {
-    width: 200px;
-    height: 170px;
+
     border: 1px solid #ffffff;
-    margin: 0 30px 20px 0;
     padding: 20px;
     color: #ffffff;
 }
@@ -348,10 +315,6 @@ input:focus {
     margin: 0 50px 40px 0;
 }
 
-.message {
-    height: 250px;
-}
-
 /* bar */
 
 .bar {
@@ -389,10 +352,12 @@ input:focus ~ .bar:after {
 
 .send_but {
     border: 1px solid rgba(255, 255, 255, .8);
+    color: #fff;
     padding: 10px;
     background-color: transparent;
 }
 
 .send_but:hover {
     background-color: rgba(255, 255, 255, .8);
+    color: #005DBD;
 }
