@@ -101,11 +101,11 @@
         display: none;
     }
     .ex_wordbox {
-        padding-left: 30px;
+        padding-left: 20px;
         padding-top: 40px;
     }
     .vertical_word {
-        display: inline-block;
+        display: none;
     }
     .about_me_word {
         font-size: 14px;
@@ -164,7 +164,7 @@
         display: none;
     }
     .ex_wordbox {
-        padding-left: 30px;
+        padding-left: 20px;
         padding-top: 40px;
     }
     .vertical_word {
@@ -227,7 +227,7 @@
         display: inline-block;
     }
     .ex_wordbox {
-        padding-left: 30px;
+        padding-left: 20px;
         padding-top: 40px;
     }
     .vertical_word {
