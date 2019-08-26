@@ -122,7 +122,7 @@ span {
 }
 
 #section0 {
-    background: url('../img/1.jpg');
+    background: url('../img/1.png');
 }
 
 .horizontal_word {
@@ -135,6 +135,7 @@ span {
     margin-bottom: 10%;
     /* text-align: right; */
     text-transform: uppercase;
+    text-shadow: rgba(39, 39, 39, 0.637) 0.05em 0.05em 0.1em;
 }
 
 .vertical_word {

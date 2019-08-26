@@ -231,6 +231,9 @@
         background-size: cover;
         background-repeat: no-repeat;
     }
+    #section0{
+        background-position: center;
+    }
     .svg_1,
     .svg_2 {
         display: inline-block;
