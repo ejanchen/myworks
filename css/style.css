@@ -85,7 +85,7 @@ form {
 }
 
 span {
-    color: #005DBD;
+    color: #0377eb;
 }
 
 /* First Slide
@@ -132,7 +132,7 @@ span {
 .first_page_title {
     font-family: 'Fugaz One', cursive;
     line-height: 100%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     /* text-align: right; */
     text-transform: uppercase;
     text-shadow: rgba(39, 39, 39, 0.637) 0.05em 0.05em 0.1em;
@@ -153,84 +153,9 @@ span {
  * --------------------------------------- */
 
 #section1 {
-    background: url('../img/albert-amor-81805-unsplash.jpg');
+    background: url('../img/glenn-carstens-peters-IMRuLuNnFw4-unsplash.jpg');
 }
 
-.svg_1,
-.svg_2 {
-    margin-left: 5%;
-    width: 5%;
-    fill: #4d4c4b;
-}
-
-.svg_1 {
-    height: 520px;
-}
-
-.svg_2 {
-    height: 380px;
-}
-
-.svg_3 {
-    height: 180px;
-}
-
-.ex_bg {
-    padding-bottom: 30px;
-    margin-bottom: 30px;
-    background-color: rgba(0, 0, 0, .2);
-}
-
-.work_title {
-    text-align: center;
-    background-color: #d0edff;
-}
-
-.line {
-    stroke: rgb(255, 255, 255, .6);
-    stroke-width: 3;
-}
-
-.ex_wordbox > div:nth-child(1),
-.ex_wordbox > div:nth-child(2) {
-    padding-bottom: 20px;
-}
-
-.ex_title {
-    font-weight: 600;
-    color: #fdfdfd;
-}
-
-.ex_list > p,
-.ex_period {
-    font-size: 14px;
-    line-height: 1.5;
-}
-
-.ex_title,
-.ex_period {
-    padding-bottom: 10px;
-}
-
-.ex_period > span {
-    color: #b4e8ff;
-}
-
-.work_title > span {
-    color: #4d4c4b;
-}
-
-.soho_word {
-    font-size: 14px;
-    padding: 25px 30px 0 30px;
-}
-
-/* 3rd Slide
- * --------------------------------------- */
-
-#section2 {
-    background: url('../img/bruno-martins-442354-unsplash.jpg');
-}
 .span-color{
     /* color:rgb(90, 189, 231); */
     font-weight: 600;
@@ -262,18 +187,6 @@ span {
     padding-bottom: 30px;
 }
 
-/* 4rth Slide
- * --------------------------------------- */
-
-#section3 {
-    background: url('../img/glenn-carstens-peters-IMRuLuNnFw4-unsplash.jpg');
-}
-
-.fourth_page_title {
-    font-family: 'Fugaz One', cursive;
-    text-transform: uppercase;
-    line-height: 100%;
-}
 
 .work {
     border: 1px solid #ffffff;
